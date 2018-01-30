@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Program 3 - Aditya Bhardwaj </title>
+
+    <link type="text/css" rel="stylesheet" href="rasterize.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="gl-matrix.js"></script>
+    <script type="text/javascript" src="rasterize.js"></script>
+</head>
+
+<body onload="main();">
+    <div class="header">
+        <label><h1>Computer Graphics Assignment - 3</h1></label><br>
+        <label><h2>Name: Aditya Bhardwaj</h2></label> &nbsp;
+        <label style="text-indent: 10em;"><h2>Unity ID: ABHARDW2</h2></label>
+    </div>
+    <canvas id="myImageCanvas" width="512" height="512"></canvas>
+    <canvas id="myWebGLCanvas" width="512" height="512"></canvas>
+    <span id="mySpan">
+      <label>Sorting order contains opaque object at first as per part 3 requirement.</label><br>
+      <label>After opaque objects, transparent object comes in the sorted order.</label><br>
+      <label><b>The Sorting Order:</b></label> <br>
+      <label id="l0"></label> <br>
+      <label id="l1"></label> <br>
+      <label id="l2"></label> <br>
+      <label id="l3"></label> <br>
+      <label id="l4"></label>
+    </span>
+</body>
+
+</html>

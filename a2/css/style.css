@@ -1,0 +1,18 @@
+body {
+    color: #A1B1B1;
+    text-align: center;
+}
+
+canvas {
+    background: #000000;
+}
+
+label {
+    color: #aaaaaa;
+    align-self: center;
+}
+
+.header {
+    background-color: #000000;
+    opacity: 0.7;
+}
